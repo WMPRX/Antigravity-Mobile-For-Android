@@ -33,3 +33,22 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# User-supplied proprietary inputs
+input/
+web/
+
+# Build outputs
+out/
+*.idsig
+*.dex
+*.so
+
+# Secrets
+keys/
+config.env
+
+# Python / editor / OS
+__pycache__/
+*.pyc
+.DS_Store
